@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(255,255,255);
+    background-color: white;
 }
 
 header {
@@ -71,64 +71,66 @@ header a{
 
 .img2 {
     margin-top: 200px;
+    width:1000px;
 }
 
 .presentation{
-    color: white;
-    text-align:center;
-    font-size:2em;;
     background-color: rgb(120,0,255);
-    padding:15%;
+    padding:20%;
 }
 
 .presentation_box{
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 80px;
+    margin-right: 100px;
+    font-size:2.5em;
+    color: white;
     text-align: center;
     line-height: 2rem;
 }
 
 .tools{
-    margin-top: 70px;
+    margin-top: 150px;
     font-size: xx-large;
     font-weight: 800;
     font-family:'Eurostile',sans-serif;
-    text-decoration: underline;
     display: flex;
     justify-content: center;
 }
 
-.skills_img{
-    margin-top: 70px;
-    margin-bottom: 70px;
+.tools_img{
+    margin: 50px 20px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction:row;
+    flex-flow:wrap;
+    justify-content:center;
     gap: 150px;
-    align-items: center;
-    padding-bottom: 50px;
+    align-items:center;
+    padding: 50px 0px;
+    border: solid 5px whitesmoke;
 }
 
-.img_skills {
+.img_of_tool {
     width:130px;
 }
 
-.skills_part{
-    margin-top: 30px;
+.skills_title{
+    margin-top: 200px;
     font-size: xx-large;
     font-weight: 800;
     font-family:'Eurostile',sans-serif;
-    text-decoration: underline;
     display: flex;
     justify-content: center;
 }
 
 .skills{
+    margin: 50px 20px;
+    border:solid 5px whitesmoke;
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 300px;
-    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .skills1,.skills2{
@@ -146,6 +148,7 @@ a:link{
 }
 
 .contact{
+    margin-top: 50px;
     text-decoration: underline;
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
@@ -162,8 +165,3 @@ footer{
     align-items: center;
     justify-content: center;
 }
-
-@media screen and (min-width:100px) {
-    .img2{width: 850px;}
-}
-
