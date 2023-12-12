@@ -75,20 +75,21 @@ header a{
 
 .presentation{
     background-color: rgb(120,0,255);
-    padding:15%;
+    padding:20%;
 }
 
 .presentation_box{
     color: white;
     font-size:2em;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
-    line-height: 2rem;
+    line-height: 1.5rem;
 }
 
 .tools{
     margin-top: 150px;
+    margin-bottom: 85px;
     font-size: xx-large;
     font-weight: 800;
     font-family:'Eurostile',sans-serif;
@@ -114,11 +115,13 @@ header a{
 
 .skills_title{
     margin-top: 150px;
+    margin-bottom: 85px;
     font-size: xx-large;
     font-weight: 800;
     font-family:'Eurostile',sans-serif;
     display: flex;
     justify-content: center;
+    background-color: white;
 }
 
 .skills{
@@ -127,7 +130,7 @@ header a{
     flex-direction: row;
     justify-content: center;
     gap: 200px;
-    margin:30px 25px;
+    margin:30px 25px 100px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -139,7 +142,7 @@ header a{
 
 .skills1 img,.skills2 img{
     height:160px;
-    max-width:181px;
+    max-width:190px;
 }
 
 a:link{
@@ -147,19 +150,12 @@ a:link{
      text-decoration: none;
 }
 
-.contact{
-    text-decoration: underline;
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 5px;
-}
-
 footer{
+    text-align: center;
     font-style: italic;
-    background-color: rgb(165, 165, 165);
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    font-size: large;
+    font-weight: 500;
+    color:white;
+    background-color: rgb(120,0,255);
+    padding: 20px;
 }
