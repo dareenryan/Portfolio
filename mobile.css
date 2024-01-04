@@ -129,25 +129,19 @@ header a{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 200px;
+    gap: 100px;
     margin:30px 25px 100px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.skills1,.skills2{
-    float:left;
+.skills_left_side,.skills_right_side{
     font-size: large;
 }
 
 .skills1 img,.skills2 img{
     height:160px;
     max-width:190px;
-}
-
-a:link{
-     color:black;
-     text-decoration: none;
 }
 
 footer{
@@ -158,4 +152,9 @@ footer{
     color:white;
     background-color: rgb(120,0,255);
     padding: 20px;
+}
+
+a:link{
+    color:black;
+    text-decoration: none;
 }
