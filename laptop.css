@@ -160,7 +160,7 @@ header a{
     justify-content: center;
 }
 
-.projects{
+/*.projects{
     margin: 50px 20px;
     margin-bottom: 200px;
     border:solid 5px rgb(120,0,255);
@@ -196,16 +196,16 @@ header a{
 .projects_link img:hover{
     width: 500px;
     height: 500px;
-}
+}*/
 
-.test{
+.project{
     border: 5px solid rgb(120,0,255);
     display: flex;
     flex-flow: wrap;
     margin: 50px 20px;
     margin-bottom: 200px;
 }
-.test1{
+.project1{
     margin-top: 100px;
     display: flex;
     flex-direction: row;
@@ -213,24 +213,24 @@ header a{
     align-items: center;
     padding:0px 30px ;
 }
-.lt1{
-    margin-right: 200px;
+.lp1{
+    margin-right: 103px;
     padding-right: 50px;
     border-right:1px solid rgb(120,0,255);
     font-size:20px;
     line-height: 2rem;
 }
-.rt1 img{    
-    width: 350px;
-    height:420px;
+.rp1 img{    
+    width: 450px;
+    height:300px;
     transition: 1s;
     margin-right: 30px;
 }
-.rt1 img:hover{
-    width: 500px;
-    height: 500px;
+.rp1 img:hover{
+    width:490px;
+    height: 340px;
 }
-.test2{
+.project2{
     margin-top: 100px;
     display: flex;
     flex-direction: row-reverse;
@@ -238,21 +238,21 @@ header a{
     align-items: center;
     padding:0px 30px ;
 }
-.lt2{
+.lp2{
     margin-left: 120px;
     padding-left: 50px;
     border-left:1px solid rgb(120,0,255);
     font-size:20px;
     line-height: 2rem;
 }
-.rt2 img{    
+.rp2 img{    
     width: 450px;
-    height:400px;
+    height:300px;
     transition: 1s;
 }
-.rt2 img:hover{
-    width: 600px;
-    height: 600px;
+.rp2 img:hover{
+    width: 490px;
+    height: 340px;
 }
 
 

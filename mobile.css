@@ -106,7 +106,7 @@ header a{
     align-items:center;
     padding-top: 50px;
     padding-bottom: 50px;
-    border: solid 4px whitesmoke;
+    border: solid 4px rgb(120,0,255);
 }
 
 .img_of_tool {
@@ -125,7 +125,7 @@ header a{
 }
 
 .skills{
-    border:solid 4px whitesmoke;
+    border:solid 4px rgb(120,0,255);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -142,6 +142,105 @@ header a{
 .skills1 img,.skills2 img{
     height:160px;
     max-width:190px;
+}
+
+.projects_title{
+    margin-top: 200px;
+    font-size: xx-large;
+    font-weight: 800;
+    font-family:'Eurostile',sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+/*.projects{
+    margin: 50px 20px;
+    margin-bottom: 200px;
+    border:solid 5px rgb(120,0,255);
+    padding: 50px 40px;
+    display:table;
+    width: 97%;
+}
+.project_description{
+    padding-top: 82px;
+}
+.projects_left_side{
+    width: 50%;
+    padding-right: 50px;
+    padding-bottom: 135px;
+    border-right: 1px solid rgb(120,0,255);
+}
+.projects_right_side{
+    width:40%;
+    margin-left: 57px;
+}
+.projects_left_side,.projects_right_side{
+    float:left;
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.projects_left_side img,.projects_right_side img{
+    width: 350px;
+    height: 420px;
+    transition: 1s;
+}
+
+.projects_link img:hover{
+    width: 500px;
+    height: 500px;
+}*/
+
+.project{
+    border: 5px solid rgb(120,0,255);
+    display: flex;
+    flex-flow: wrap;
+    margin: 50px 20px;
+    margin-bottom: 200px;
+}
+.project1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:50px 30px;
+}
+.lp1{
+    padding-right: 10px;
+    border-right:1px solid rgb(120,0,255);
+    font-size:16px;
+    line-height: 2rem;
+}
+.rp1 img{    
+    padding-left: 10px;
+    width: 300px;
+    height:250px;
+    transition: 1s;
+}
+.rp1 img:hover{
+    width: 310px;
+}
+.project2{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding:0px 30px ;
+}
+.lp2{
+    margin-left: 10px;
+    padding-left: 20px;
+    border-left:1px solid rgb(120,0,255);
+    font-size:16px;
+    line-height: 2rem;
+}
+.rp2 img{    
+    width: 270px;
+    transition: 1s;
+}
+.rp2 img:hover{
+    width: 300px;
 }
 
 footer{
