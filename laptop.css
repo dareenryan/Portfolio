@@ -1,13 +1,6 @@
-*{
-    box-sizing: border-box;
+body{
     margin: 0;
 }
-
-/** rgb(15,23,42)**/
-body {
-    background-color: white;
-}
-
 
 header {
     padding-top: 20px;
@@ -38,7 +31,6 @@ header a{
     background-color: rgb(150,0,210);
     color: white;
 }
-
 
 .intro_1 {
     margin-top: 10%;
@@ -139,14 +131,14 @@ header a{
     justify-content:center;
     gap: 300px;
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .skills_left_side,.skills_right_side{
     font-size: large;
 }
 
-.skills1 img,.skills2 img{
+.skills_left_side img,.skills_right_side img{
     height:191px
 }
 
